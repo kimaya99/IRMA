@@ -1,0 +1,6 @@
+framework module Pods_AphasiaDr {
+  umbrella header "Pods-AphasiaDr-umbrella.h"
+
+  export *
+  module * { export * }
+}

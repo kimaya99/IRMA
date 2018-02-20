@@ -1,0 +1,27 @@
+Originality 	4/5
+
+Size of project 18/20
+
+Quality of UI 64/80
+    DONT USE CAPS
+    At times when clicking on LEFT or RIGHT nothing appears to happen
+    Why italic? a bit harder to read
+    FLANKER - why the odd font?, What is flanker?
+    Why exit? have not seen an app that that has a way to kill app
+    Alignment is off on devices - Ran on iPhone 7 (same size as 6s) and appwas unusable
+Working code 75/75
+Quality of code 19/20
+    Some inconsistent spacing/formating
+
+@IBAction func Steppr(_ sender: UIStepper) {
+    ageValue.text = String(Int(sender.value))
+    b = String(describing: ageValue.text)
+}
+
+func createDatePicker()
+{
+
+datePicker.datePickerMode = .date
+
+
+total 180/200
