@@ -93,7 +93,7 @@
         <!-- LOG IN-->
         <scene sceneID="9i8-pZ-M6J">
             <objects>
-                <tableViewController id="1OZ-xu-41P" customClass="ViewController" customModule="AphasiaDr" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ViewController" id="1OZ-xu-41P" customClass="ViewController" customModule="AphasiaDr" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="hBS-hR-lgh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1184,9 +1184,7 @@
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="YES"/>
                                 <connections>
-                                    <action selector="leftPressed:" destination="nC3-FM-OKj" eventType="touchUpInside" id="1Db-cI-kTZ"/>
-                                    <action selector="yesButton:" destination="nC3-FM-OKj" eventType="touchUpInside" id="hVE-e5-ZSD"/>
-                                    <action selector="yesPressed:" destination="nC3-FM-OKj" eventType="touchUpInside" id="kA9-gp-5PR"/>
+                                    <action selector="yesPressed:" destination="nC3-FM-OKj" eventType="touchUpInside" id="vfn-HC-Jyp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kK9-IQ-6aE">
@@ -1197,9 +1195,6 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="stopLabel:" destination="nC3-FM-OKj" eventType="touchUpInside" id="hfa-WG-Jft"/>
-                                    <action selector="stopNow:" destination="nC3-FM-OKj" eventType="touchUpInside" id="7kv-wt-dEf"/>
-                                    <action selector="stopPressed:" destination="nC3-FM-OKj" eventType="touchUpInside" id="j30-V8-QLK"/>
                                     <segue destination="CUk-le-UHH" kind="show" id="Rkv-YP-sYY"/>
                                 </connections>
                             </button>
@@ -1217,7 +1212,6 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="startLabel:" destination="nC3-FM-OKj" eventType="touchUpInside" id="Gvi-dV-Li6"/>
                                     <action selector="startPressed:" destination="nC3-FM-OKj" eventType="touchUpInside" id="S4z-xJ-FE5"/>
                                 </connections>
                             </button>
@@ -1231,9 +1225,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="noButton:" destination="nC3-FM-OKj" eventType="touchUpInside" id="oW1-Sj-h9F"/>
                                     <action selector="noPressed:" destination="nC3-FM-OKj" eventType="touchUpInside" id="SKK-kj-Gcu"/>
-                                    <action selector="rightPressed:" destination="nC3-FM-OKj" eventType="touchUpInside" id="D6m-FG-dvN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1242,11 +1234,9 @@
                     </view>
                     <connections>
                         <outlet property="noButton" destination="8nF-g8-HP4" id="7Uh-ac-btk"/>
-                        <outlet property="startLabel" destination="wwp-4B-Ki9" id="xSg-VN-wr1"/>
-                        <outlet property="startPressed" destination="wwp-4B-Ki9" id="71C-DW-qW0"/>
+                        <outlet property="startLabel" destination="wwp-4B-Ki9" id="NvH-oP-jf1"/>
                         <outlet property="stopLabel" destination="kK9-IQ-6aE" id="Ii3-jO-3xA"/>
-                        <outlet property="yesButton" destination="Oeg-Rz-TbC" id="YtC-0A-vo0"/>
-                        <outlet property="yesLabel" destination="Oeg-Rz-TbC" id="fOC-Mi-pKe"/>
+                        <outlet property="yesButton" destination="Oeg-Rz-TbC" id="qsI-j9-DzM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YE3-IM-Tva" sceneMemberID="firstResponder"/>

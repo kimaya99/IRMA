@@ -108,7 +108,7 @@ class StroopViewController: UIViewController {
         
       dictionary.updateValue("right", forKey: passingTexture)
         
-    var image = passingTexture
+        var image = passingTexture
         total = total + 1
         for x in ansDictionary {
             if x.value == "right" {

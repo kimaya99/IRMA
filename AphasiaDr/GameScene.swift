@@ -38,7 +38,7 @@ class GameScene: SKScene {
         
             MainMotion = SKSpriteNode(imageNamed: TextureAtlas.textureNames[0])
         
-            MainMotion.size = CGSize(width:400, height:400)
+            MainMotion.size = CGSize(width:500, height:600)
             MainMotion.position = CGPoint(x: 0, y : 0)
             self.addChild(MainMotion)
             passingTexture = String(describing: MainMotion.texture)
@@ -54,7 +54,7 @@ class GameScene: SKScene {
             
             MainMotion2 = SKSpriteNode(imageNamed: TextureAtlas2.textureNames[0])
             
-            MainMotion2.size = CGSize(width:400, height:400)
+            MainMotion2.size = CGSize(width:500, height:600)
             MainMotion2.position = CGPoint(x: 0, y : 0)
             self.addChild(MainMotion2)
             passingTexture = String(describing: MainMotion2.texture)
@@ -70,7 +70,7 @@ class GameScene: SKScene {
             
             MainMotion3 = SKSpriteNode(imageNamed: TextureAtlas3.textureNames[0] )
             
-            MainMotion3.size = CGSize(width:400, height:400)
+            MainMotion3.size = CGSize(width:500, height:600)
             MainMotion3.position = CGPoint(x: 0, y : 0)
             self.addChild(MainMotion3)
             passingTexture = String(describing: MainMotion3.texture)
